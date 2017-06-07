@@ -1,0 +1,22 @@
+{
+  "name": "slim-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "steal-tools"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "steal": "^1.5.2",
+    "steal-css": "^1.2.4",
+    "steal-tools": "github:stealjs/steal-tools#minor"
+  },
+  "steal": {
+    "paths": {
+      "css": "./slim-css.js"
+    }
+  }
+}
